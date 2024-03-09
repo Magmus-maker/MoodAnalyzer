@@ -3,7 +3,7 @@ from textblob import TextBlob
 import spacy
 from gensim.models import Word2Vec
 import stanza
-
+#v1.0
 nltk.download('punkt')
 nltk.download('vader_lexicon')
 stanza.download('en')  # Download the English language module for CoreNLP
