@@ -25,14 +25,22 @@ git clone https://github.com/your-username/text-mood-analyzer.git
 ```
 
 Install the required dependencies:
-```pip install -r requirements.txt```
+```
+pip install -r requirements.txt
+```
 
 Download the necessary NLTK corpora:
-```python -m nltk.downloader punkt```
-```python -m nltk.downloader vader_lexicon```
+```
+python -m nltk.downloader punkt
+```
+```
+python -m nltk.downloader vader_lexicon
+```
 
 Download the English language model for CoreNLP using stanza:
-```python -m stanza.download en```
+```
+python -m stanza.download en
+```
 
 Usage
 Run the application:
